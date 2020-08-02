@@ -63,22 +63,7 @@
         android:layout_height="1px"
         android:background="@color/white_greyish" />
 
-    <EditText
-        android:id="@+id/mobileNumber"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="@android:color/transparent"
-        android:drawableLeft="@drawable/phone"
-        android:drawablePadding="8dp"
-        android:gravity="center_vertical"
-        android:hint="@string/mobileNumber"
-        android:inputType="phone"
-        android:padding="10dp"
-        android:singleLine="true"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textSize="16sp" />
+
 
     <View
         android:layout_width="fill_parent"
@@ -113,14 +98,6 @@
         android:background="@color/white_greyish" />
 
 
-    <CheckBox
-        android:id="@+id/terms_conditions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:text="@string/terms_conditions"
-        android:textColor="@color/white"
-        android:textSize="14sp" />
 
     <Button
         android:id="@+id/signUpBtn"
